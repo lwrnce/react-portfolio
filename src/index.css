@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Poiret+One|Roboto");
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Poiret-font: "Poiret One", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --Roboto: "Roboto", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(45DEG, #ffcce7, #81b7d2, #4d5198);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --azur: linear-gradient(to right, #44d3c9, #3d70cf, #3636b9);
+    --smboxgradient: linear-gradient(45deg, #6096fd, #aab6fb, #fb7bbe, #faa7bb);
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
