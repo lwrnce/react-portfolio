@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import ProjectTile from "./components/ProjectTile";
 import ContactForm from "./components/Contact";
 import Nav from './components/Nav';
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("about");
@@ -11,7 +11,7 @@ function App() {
   const selectPage = () => {
     switch (currentPage) {
       case "projects":
-        return <ProjectTile />;
+        return <Portfolio />;
       case "contact":
         return <ContactForm />;
       default:
