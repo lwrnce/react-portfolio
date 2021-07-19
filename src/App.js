@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import Projects from "./components/Project";
+import ProjectTile from "./components/ProjectTile";
 import ContactForm from "./components/Contact";
 
 function App() {
@@ -11,11 +11,11 @@ function App() {
   const selectPage = () => {
     switch (currentPage) {
       case "projects":
-        return <Projects />;
+        return <About />;
       case "contact":
         return <ContactForm />;
       default:
-        return <About />;
+        return <ProjectTile />;
     }
   };
 
