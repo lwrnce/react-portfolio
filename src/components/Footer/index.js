@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div style={{ justifyContent: "space-evenly"}}>
+      <div style={{ justifyContent: "center"}}>
                     <h5 class="text-muted">Thanks for visiting!</h5>
                     <p class="copyright text-muted">
                         Copyright ©2020 Lawrence Yuen | All rights reserved

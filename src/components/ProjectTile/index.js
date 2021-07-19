@@ -11,10 +11,10 @@ import Button from '@material-ui/core/Button';
 const ProjectTile = ({Project}) => {
     const useStyles = makeStyles({
       root: {
-        maxWidth: 345,
+        maxWidth: 450,
       },
       media: {
-        height: 140,
+        height: 250,
       },
     });
 
@@ -30,10 +30,10 @@ const ProjectTile = ({Project}) => {
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <a href={Project.deployedLink}>Deployed Link</a>
+              <a href={Project.deployedLink} target="_blank">Deployed Link</a>
             </Button>
             <Button size="small" color="primary">
-              <a href={Project.repoLink}>GitHub Repo</a>
+              <a href={Project.repoLink} target="_blank">GitHub Repo</a>
             </Button>
           </CardActions>
         </Card>
